@@ -17,7 +17,6 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-
           <Route exact path="/class">
             <Class></Class>
           </Route>
@@ -27,11 +26,11 @@ function App() {
           <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
           <Route exact path="/">
             <Home></Home>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
