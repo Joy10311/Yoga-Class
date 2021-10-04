@@ -1,9 +1,14 @@
 import React from 'react';
+import useClasses from '../../Hooks/useClasses';
+import SetClass from '../SetClass/SetClass';
 
 const Class = () => {
+    const [classes, setClasses] = useClasses();
     return (
-        <div>
-            <h2>This is class</h2>
+        <div className="grid grid-cols-3 ">
+            {
+                classes.map(clss => <SetClass clss={clss}></SetClass>)
+            }
         </div>
     );
 };

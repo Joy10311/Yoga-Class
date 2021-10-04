@@ -8,6 +8,6 @@ const useClasses = () => {
             .then(res => res.json())
             .then(data => setClasses(data))
     }, []);
-    return [classes]
+    return [classes, setClasses]
 }
 export default useClasses;
