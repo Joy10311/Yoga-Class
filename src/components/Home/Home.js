@@ -12,12 +12,13 @@ const Home = () => {
 
     }, [])
 
+
     return (
         <div>
-            <h2 className="font-bold text-6xl pt-5 pb-5 text-blue-600">Our Class</h2>
+            <h2 className="font-bold text-5xl pt-5 pb-5 text-blue-600">Our Class</h2>
             <div className="grid grid-cols-4 ">
                 {
-                    classes.map(cls => <Classes
+                    classes.slice(0, 4).map(cls => <Classes
 
                         cls={cls}
                     ></Classes>)

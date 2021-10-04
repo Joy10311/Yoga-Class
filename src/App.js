@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Class from './components/Class/Class';
@@ -18,7 +18,7 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route exact path="/Class">
+          <Route exact path="/class">
             <Class></Class>
           </Route>
           <Route exact path="/trainers">
