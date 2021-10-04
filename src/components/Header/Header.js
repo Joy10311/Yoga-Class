@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../image/logo.png'
+import NotFound from '../NotFound/NotFound';
 
 
 const Header = () => {
@@ -13,8 +14,6 @@ const Header = () => {
                 <Link className="mx-10" to="/class">Class</Link>
                 <Link className="mx-10" to="/trainers">Trainers</Link>
                 <Link className="mx-10" to="/about">About Us</Link>
-
-
             </nav>
 
 
