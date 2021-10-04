@@ -9,6 +9,7 @@ const SetTrainee = (props) => {
                 <h5 className="font-bold text-red-700 my-4">Trainer: {person}</h5>
                 <p className=" font-semibold">Gender: {gender}</p>
                 <h2 className="font-bold text-blue-600 my-2">Contact: {email}</h2>
+                <button className="bg-blue-700 text-white rounded-lg mt-2  p-2 mb-3">Contact Me</button>
             </div>
 
         </div>
