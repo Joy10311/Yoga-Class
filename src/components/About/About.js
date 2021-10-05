@@ -16,26 +16,16 @@ const About = () => {
                 </div>
             </div>
 
-            <h2 className="pt-20 pl-5 font-bold text-4xl text-blue-400">Contact Us</h2>
-            <div className="grid grid-cols-3 pb-20">
+            <h2 className="pt-20 pl-5 font-bold text-4xl text-blue-700">Contact Us</h2>
+            <div className="grid grid-cols-2 pb-20">
                 <img className="pl-20 pt-20" src={logo} alt="" />
-                <div className="pt-20 ml-40">
-                    <input className="border border-gray-800  pt-2 pb-2 block" type="text" placeholder="NAME" />
-                    <input className="border border-gray-800 mt-2 pt-2 pb-2 block" type="text" placeholder="EMAIL" />
-                    <input className="border border-gray-800 mt-2 pt-2 pb-2 block" type="text" placeholder="NUMBER" />
-                    <input className="border border-gray-800 mt-2 pt-10 pb-10 block" type="text" placeholder="Enter your Messege" />
+                <div className="mt-24 ml-40 pl-40">
+                    <input className="border border-gray-800  pt-2 pb-2 pl-40 block" type="text" placeholder="NAME" />
+                    <input className="border border-gray-800 mt-2 pt-2 pb-2 pl-40 block" type="text" placeholder="EMAIL" />
+                    <input className="border border-gray-800 mt-2 pt-2 pb-2 pl-40 block" type="text" placeholder="NUMBER" />
+                    <input className="border border-gray-800 mt-2 pt-14 pl-40 pb-14 block" type="text" placeholder="Enter your Messege" />
                     <button className="border border-gray-800 block mt-2  p-2 bg-blue-700 text-white rounded-lg">Send Messege</button>
 
-                </div>
-                <div className="font-bold text-3xl text-justify text-red-600 pr-5">
-                    <h1 className="font-bold text-3xl text-blue-600 pb-20  ">Contact Info</h1>
-                    <h1>69 South Park Avenue San Francisco, CA 14782 USA</h1>
-                    <br />
-                    <h1>support@companyname.com</h1>
-                    <br />
-                    <h1>(00) 123 456 789</h1>
-                    <br />
-                    <h1>www.companyname.com</h1>
                 </div>
             </div>
 
